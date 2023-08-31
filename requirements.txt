@@ -63,7 +63,7 @@ scikit-base==0.4.6
 scikit-learn==1.0.2
 scikit-plot==0.3.7
 scipy==1.7.3
-sktime==0.22.0
+sktime==0.19.2
 smmap==5.0.0
 statsmodels==0.14.0
 streamlit==1.26.0
