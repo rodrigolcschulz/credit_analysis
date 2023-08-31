@@ -26,7 +26,7 @@ jupyterlab-widgets==3.0.8
 kaleido==0.2.1
 kiwisolver==1.4.5
 lightgbm==4.0.0
-llvmlite==0.40.1
+llvmlite==0.39.1
 markdown-it-py==3.0.0
 matplotlib==3.7.2
 mdurl==0.1.2
