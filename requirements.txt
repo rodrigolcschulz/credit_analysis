@@ -69,7 +69,7 @@ statsmodels==0.13.5
 streamlit==1.23.1
 tbats==1.1.3
 tenacity==8.2.3
-threadpoolctl==3.2.0
+threadpoolctl==3.1.0
 toolz==0.12.0
 tqdm==4.66.1
 trace-updater==0.0.9.1
