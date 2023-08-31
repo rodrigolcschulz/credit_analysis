@@ -1,6 +1,10 @@
 # analise_credito
 
-## Ciência de dados para predição de mal pagador
+## Ciência de dados para predição de 
+
+https://github.com/rodrigolcschulz/credit_analysis/assets/125701676/d9eb669b-6c9c-4173-babd-3437154a877f
+
+mal pagador
 * [link](https://analise-credito-30u0.onrender.com)
 ## Ciência de Dados
 ## Rodrigo Schulz
