@@ -35,7 +35,7 @@ mypy-extensions==0.4.3
 numba==0.56.4
 numpy==1.21.6
 orjson==3.9.5
-pandas==1.2.5
+pandas==1.4.1
 patsy==0.5.3
 Pillow==9.5.0
 plotly==5.16.1
@@ -44,7 +44,7 @@ ply==3.11
 pmdarima==2.0.3
 protobuf==4.24.2
 pyarrow==12.0.1
-pycaret==3.0.4
+pycaret==2.3.1
 pydeck==0.8.0
 pyls-spyder==0.4.0
 Pympler==1.0.1
