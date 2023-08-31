@@ -58,7 +58,6 @@ PyYAML==6.0
 referencing==0.8.9
 retrying==1.3.4
 rich==13.5.2
-rpds-py==0.10.0
 schemdraw==0.15
 scikit-base==0.5.1
 scikit-learn==1.2.2
