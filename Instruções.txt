@@ -1,0 +1,69 @@
+Passo a passo
+
+0- Acessar o github 
+	https://github.com/
+	
+	0a- Criar um personal access token https://github.com/rodrigolcschulz/credit_analysis.git
+
+	0b- Salvar como se fosse uma senha!
+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
+	
+1- Criar um repositório no github
+https://github.com/rodrigolcschulz/credit_analysis
+
+2- Clonar o repositório no seu computador
+https://github.com/rodrigolcschulz/credit_analysis.git
+
+3- Mover os arquivos baixados da plataforma da EBAC para dentro da pasta
+
+- Iniciar a aplicação localmente para verificar funcionamento
+pip install pandas -U
+pip install streamlit -U
+pip install seaborn -U
+pip install matplotlib -U
+pip install xlsxwriter -U
+
+"C:\Users\rodri\Documents\Data Science\mod_38\analise_credito\credit_analysis"
+
+python -m streamlit run app_pycaret.py
+
+6- Criar um arquivo com o nome Procfile e colar isso:
+	
+	web: sh setup.sh && streamlit run app_pycaret.py
+	
+7- Criar um arquivo com o nome requirements.txt
+	- pip freeze > requirements.txt 
+	- se não for um venv, retirar as bibliotecas desnecessárias
+
+8- Criar um arquivo chamado setup.sh e colar isso:
+
+mkdir -p ~/.streamlit/
+echo "\
+[server]\n\
+headless = true\n\
+enableCORS=false\n\
+port = $PORT\n\
+" > ~/.streamlit/config.toml
+
+9- Na linha de comando 
+
+	9d- git add .
+	9e- git commit -m "Commit inicial"
+	9f- git push
+	9g- git push heroku HEAD:master
+	
+10- Acessar o link criado 
+
+11- Alterar alguma coisa na aplicação e commitar no github para avaliar a reconstrução da aplicação
+
+12- Acessar o link na página do repositório
+
+git config --system credential.helper
+git config --system--unset credential.helper
+git push
+git config --system credential.helper manager
+
+
+git remote add origin https://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@github.com/rodrigolcschulz/credit_analysis.git
+
+git remote add origin https://[TOKEN]@github.com/[GIT_USER]/[REPO]
