@@ -163,7 +163,6 @@ pytz @ file:///C:/b/abs_22fofvpn1x/croot/pytz_1671698059864/work
 pytz-deprecation-shim==0.1.0.post0
 pywin32==305.1
 pywin32-ctypes==0.2.0
-pywinpty @ file:///C:/b/abs_73vshmevwq/croot/pywinpty_1677609966356/work/target/wheels/pywinpty-2.0.10-cp38-none-win_amd64.whl
 PyYAML==6.0
 pyzmq @ file:///C:/ci/pyzmq_1657616005830/work
 QDarkStyle @ file:///tmp/build/80754af9/qdarkstyle_1617386714626/work
