@@ -1,5 +1,5 @@
 matplotlib==3.5.3
-pandas==0.26.0
+pandas==0.25.3
 protobuf==3.20.1
 pyarrow==10.0.0
 pycaret==3.0.4
