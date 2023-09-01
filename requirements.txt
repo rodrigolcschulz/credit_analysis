@@ -1,6 +1,7 @@
 matplotlib==3.5.3
-pandas==1.0.0
+pandas==0.26.0
 protobuf==3.20.1
+pyarrow==10.0.0
 pycaret==3.0.4
 seaborn==0.12.2
 streamlit==1.23.1
